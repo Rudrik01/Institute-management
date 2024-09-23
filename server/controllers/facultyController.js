@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 
 //Utils
 const sendEmail = require("../utils/nodemailer");
-const bufferConversion = require("../utils/bufferConversion");
+
 const cloudinary = require("../utils/cloudinary");
 
 const keys = require("../config/key");
